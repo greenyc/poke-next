@@ -27,5 +27,5 @@
   "moduleDetection": "force",
   "verbatimModuleSyntax": true,
   "noUncheckedIndexedAccess": true,
-  "noImplicitOverride": true,
+  "noImplicitOverride": true
 }
