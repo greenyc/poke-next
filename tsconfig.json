@@ -22,5 +22,10 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "target": "es2022",
+  "moduleDetection": "force",
+  "verbatimModuleSyntax": true,
+  "noUncheckedIndexedAccess": true,
+  "noImplicitOverride": true,
 }
