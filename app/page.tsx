@@ -1,3 +1,9 @@
-export default function Home() {
-  return <main>Poke next</main>
+import { PokemonTable } from '@/components/pokemon/PokemonTable'
+
+export default async function Home() {
+  return (
+    <main className='p-4'>
+      <PokemonTable generations={[1]} />
+    </main>
+  )
 }
